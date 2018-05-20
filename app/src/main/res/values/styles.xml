@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorMainToolbar</item>
+        <item name="colorPrimaryDark">@color/colorMainToolbar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--for SlidingUpPanel set-->
+        <item name="android:windowActionBarOverlay">true</item>
+        <!--Activity extends AppCompatActivity and use custom toolbar must set two params-->
+        <item name="windowActionBar">false</item> <!-- 加这行 -->
+        <item name="windowNoTitle">true</item> <!-- 再加这行 -->
+        <item name="titleTextColor">@color/colorWhite</item>
+    </style>
+
+</resources>

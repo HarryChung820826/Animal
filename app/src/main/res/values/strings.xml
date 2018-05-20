@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Animal</string>
+    <string name="main_title">AnimalMain</string>
+
+    <!--FunOptionName-->
+    <string name="fun_option_animal">毛寶貝</string>
+    <string name="fun_option_discussion_board">討論版</string>
+    <string name="fun_option_feedback">意見反饋</string>
+    <!--FunOptionURL-->
+    <string name="fun_option_animal_url">https://4.imimg.com/data4/CG/SD/MY-23834646/pets-dog-250x250.jpg</string>
+    <string name="fun_option_discussion_board_url">https://4.imimg.com/data4/CG/SD/MY-23834646/pets-dog-250x250.jpg</string>
+    <string name="fun_option_feedback_url">https://4.imimg.com/data4/CG/SD/MY-23834646/pets-dog-250x250.jpg</string>
+</resources>

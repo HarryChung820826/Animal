@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/colorMainToolbar">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/x_all_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/y_img_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/item_img_layout"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pets_dog"
+        app:layout_constraintStart_toStartOf="@+id/x_all_guide"
+        app:layout_constraintTop_toTopOf="@+id/y_img_guide" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="dddd"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/item_img_layout"
+        app:layout_constraintStart_toEndOf="@id/item_img_layout"
+        app:layout_constraintTop_toTopOf="@+id/item_img_layout"
+        tools:text="dddd" />
+
+
+    <TextView
+        android:id="@+id/user_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="aachung@gmail.com "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/item_img_layout"
+        app:layout_constraintTop_toBottomOf="@+id/item_img_layout"
+        tools:text="aachung@gmail.com " />
+
+</android.support.constraint.ConstraintLayout>

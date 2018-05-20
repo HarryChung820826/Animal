@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navItemOne"
+            android:icon="@drawable/pets_dog"
+            android:title="@string/fun_option_animal" />
+        <item
+            android:id="@+id/navItemAbout"
+            android:title="@string/fun_option_discussion_board"/>
+        <item
+            android:id="@+id/navItemLogout"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/fun_option_feedback"/>
+    </group>
+</menu>
