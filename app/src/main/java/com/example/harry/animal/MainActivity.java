@@ -25,6 +25,7 @@ public class MainActivity extends Navigation_BaseActivity {
         mMyFragmentHelper.showFragment(R.id.fragment_content,StrayDogFragment.getInstance(),GlobalVar.FRAGMENT_TAG_MAIN);
         init();
         //test
+        //test
     }
 
 
